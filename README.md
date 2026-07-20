@@ -60,9 +60,9 @@ Change any hex code and it updates across the whole site. (Grab new colors from
 a picker like [coolors.co](https://coolors.co).)
 
 ### 📧 Update your email address
-The placeholder email is `hello@travelwithbarlow.com`. Search each `.html` file
-for that text and replace it with your real address. It appears in the footer of
-every page and on the contact page.
+The site currently uses `matthew.healey@fora.travel`. To change it, search each
+`.html` file for that text and replace it with your new address. It appears in
+the footer of every page and on the contact page.
 
 ### 📸 Instagram link
 Already set to **@travel_with_barlow** everywhere. If your handle changes,
