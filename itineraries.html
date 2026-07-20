@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Itineraries — Travel with Barlow</title>
+  <meta name="description" content="Curated LGBTQ+ travel itineraries with Bravo-level glamour. Explore Barlow's signature trips — plus a peek at what's coming soon." />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="pride-bar"></div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">✈</span>
+        Travel <span class="brand-accent">with</span> Barlow
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="itineraries.html" class="active">Itineraries</a></li>
+        <li><a href="contact.html" class="nav-cta">Book a Trip</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero-eyebrow">Now Boarding</span>
+      <h1>The Itineraries</h1>
+      <p class="hero-tagline">
+        Signature trips, hand-curated and ready to book — plus a few fabulous
+        surprises still in the making. Pick your fantasy.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ ITINERARY GRID ============
+       HOW TO EDIT:
+       - To add a trip, copy one <article class="trip-card"> block and change
+         the emoji, tag, title, description, and meta line.
+       - The cover color rotates via the "cover-1" ... "cover-6" classes.
+       - For a placeholder, use <article class="trip-card soon"> (see bottom).
+  -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Ready to Book</span>
+        <h2>Signature getaways</h2>
+        <p>Each one is fully curated — flights, stays, reservations, and all the good chaos in between.</p>
+      </div>
+
+      <div class="grid">
+        <!-- Trip 1 -->
+        <article class="trip-card">
+          <div class="trip-cover cover-1">🏝️</div>
+          <div class="trip-body">
+            <span class="trip-tag">Beach &amp; Bravo</span>
+            <h3>Puerto Vallarta Pride Escape</h3>
+            <p>Beach clubs by day, drag brunch by night, and a rooftop finale that ends in confetti. The gayest stretch of sand in Mexico, done right.</p>
+            <div class="trip-meta">5 nights · Mexico</div>
+          </div>
+        </article>
+
+        <!-- Trip 2 -->
+        <article class="trip-card">
+          <div class="trip-cover cover-2">🍸</div>
+          <div class="trip-body">
+            <span class="trip-tag">City Sparkle</span>
+            <h3>Lisbon: Tiles, Tarts &amp; Tea</h3>
+            <p>Pastel streets, natural wine bars, and nightlife that keeps you out past your skincare routine. Old-world charm with a modern queer heartbeat.</p>
+            <div class="trip-meta">4 nights · Portugal</div>
+          </div>
+        </article>
+
+        <!-- Trip 3 -->
+        <article class="trip-card">
+          <div class="trip-cover cover-3">🌋</div>
+          <div class="trip-body">
+            <span class="trip-tag">Island Drama</span>
+            <h3>Mykonos: Blue Domes &amp; Bold Moves</h3>
+            <p>Whitewashed villas, superyacht energy, and beach parties that would make a Housewife blush. Bring your best caftan and your worst impulse control.</p>
+            <div class="trip-meta">6 nights · Greece</div>
+          </div>
+        </article>
+
+        <!-- Trip 4 -->
+        <article class="trip-card">
+          <div class="trip-cover cover-4">🎭</div>
+          <div class="trip-body">
+            <span class="trip-tag">Culture &amp; Cocktails</span>
+            <h3>New York Reunion Weekend</h3>
+            <p>Broadway seats, a legendary drag show, and dinner reservations people fight for. Serving city glamour with a matching hotel view.</p>
+            <div class="trip-meta">3 nights · USA</div>
+          </div>
+        </article>
+
+        <!-- ===== COMING SOON PLACEHOLDERS =====
+             Duplicate one of these to add another teaser. -->
+        <article class="trip-card soon">
+          <span class="soon-badge">Coming Soon</span>
+          <div class="trip-cover cover-5">✨</div>
+          <div class="trip-body">
+            <span class="trip-tag">In the Works</span>
+            <h3>Tokyo After Dark</h3>
+            <p>Neon nights, tiny cocktail bars, and the best queer district in Asia. I&rsquo;m curating every glittering detail now.</p>
+            <div class="trip-meta">Dropping soon</div>
+          </div>
+        </article>
+
+        <article class="trip-card soon">
+          <span class="soon-badge">Coming Soon</span>
+          <div class="trip-cover cover-6">💖</div>
+          <div class="trip-body">
+            <span class="trip-tag">In the Works</span>
+            <h3>Cartagena Girls&rsquo; Trip</h3>
+            <p>Colorful colonial streets, rooftop pools, and salsa till sunrise. Grab the group chat — details coming soon.</p>
+            <div class="trip-meta">Dropping soon</div>
+          </div>
+        </article>
+
+        <article class="trip-card soon">
+          <span class="soon-badge">Coming Soon</span>
+          <div class="trip-cover cover-1">🥂</div>
+          <div class="trip-body">
+            <span class="trip-tag">In the Works</span>
+            <h3>Your Dream Trip</h3>
+            <p>Don&rsquo;t see it here? The best itinerary is the one built just for you. Let&rsquo;s make it happen.</p>
+            <div class="trip-meta">Let&rsquo;s chat</div>
+          </div>
+        </article>
+      </div>
+
+      <div class="center mt-2">
+        <a href="contact.html" class="btn btn-primary">Book or customize a trip</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EMAIL SIGNUP ============ -->
+  <section class="section section-tint" id="signup">
+    <div class="container">
+      <div class="signup">
+        <h2>First dibs on new trips</h2>
+        <p>New itineraries drop here first. Join the list and beat the crowd to the good rooms.</p>
+        <form class="signup-form" novalidate>
+          <input type="email" name="email" placeholder="you@fabulous.com" aria-label="Email address" required />
+          <button type="submit" class="btn btn-ghost">Sign Me Up</button>
+        </form>
+        <p class="form-success" role="status" aria-live="polite"></p>
+        <p class="form-note">No spam, ever. Just glamour and getaways.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">Travel <span>with</span> Barlow</div>
+      <div class="footer-social">
+        <a href="https://instagram.com/travel_with_barlow" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:hello@travelwithbarlow.com">Email</a>
+        <a href="itineraries.html">Itineraries</a>
+        <a href="contact.html">Book a Trip</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Travel with Barlow · Made with love &amp; a lot of glitter</p>
+    <div class="pride-bar"></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

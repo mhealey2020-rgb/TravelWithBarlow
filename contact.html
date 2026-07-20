@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Trip — Travel with Barlow</title>
+  <meta name="description" content="Ready to travel? Book a trip with Barlow. Reach out on Instagram (@travel_with_barlow) or by email to start planning your fabulous getaway." />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="pride-bar"></div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">✈</span>
+        Travel <span class="brand-accent">with</span> Barlow
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="itineraries.html">Itineraries</a></li>
+        <li><a href="contact.html" class="nav-cta active">Book a Trip</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero-eyebrow">Let&rsquo;s Go</span>
+      <h1>Book a Trip With Me</h1>
+      <p class="hero-tagline">
+        Tell me your dream and your dates — I&rsquo;ll handle the rest. Slide into my
+        DMs or drop me an email and let&rsquo;s start planning something unforgettable.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT CARDS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Get in Touch</span>
+        <h2>Two easy ways to reach me</h2>
+        <p>Whichever you prefer — I answer both. Come say hi.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Instagram -->
+        <div class="contact-card">
+          <div class="contact-icon">📸</div>
+          <h3>Instagram</h3>
+          <p>The fastest way to reach me. Follow along and send a DM.</p>
+          <p>
+            <a class="big-link" href="https://instagram.com/travel_with_barlow" target="_blank" rel="noopener">@travel_with_barlow</a>
+          </p>
+          <a href="https://instagram.com/travel_with_barlow" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:.6rem;">Message on Instagram</a>
+        </div>
+
+        <!-- Email -->
+        <div class="contact-card">
+          <div class="contact-icon">✉️</div>
+          <h3>Email</h3>
+          <p>Prefer the classic route? Send me the details and I&rsquo;ll reply within a day or two.</p>
+          <p>
+            <!-- EDIT: replace with your real email address in both spots below -->
+            <a class="big-link" href="mailto:hello@travelwithbarlow.com">hello@travelwithbarlow.com</a>
+          </p>
+          <a href="mailto:hello@travelwithbarlow.com?subject=Booking%20a%20trip%20with%20Barlow" class="btn btn-outline" style="margin-top:.6rem;">Send an Email</a>
+        </div>
+      </div>
+
+      <p class="center narrow mt-2" style="color:var(--ink-soft);">
+        Booking works best when I know a few things up front: your destination
+        (or &ldquo;surprise me!&rdquo;), rough dates, how many are traveling, and your
+        budget vibe. Don&rsquo;t worry if it&rsquo;s all still a dream — that&rsquo;s my favorite
+        place to start. ✨
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ EMAIL SIGNUP ============ -->
+  <section class="section section-tint" id="signup">
+    <div class="container">
+      <div class="signup">
+        <h2>Not ready to book yet?</h2>
+        <p>No pressure. Join the list and stay in the loop on new trips, deals, and travel inspo.</p>
+        <form class="signup-form" novalidate>
+          <input type="email" name="email" placeholder="you@fabulous.com" aria-label="Email address" required />
+          <button type="submit" class="btn btn-ghost">Keep Me Posted</button>
+        </form>
+        <p class="form-success" role="status" aria-live="polite"></p>
+        <p class="form-note">No spam, ever. Just glamour and getaways.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">Travel <span>with</span> Barlow</div>
+      <div class="footer-social">
+        <a href="https://instagram.com/travel_with_barlow" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:hello@travelwithbarlow.com">Email</a>
+        <a href="itineraries.html">Itineraries</a>
+        <a href="contact.html">Book a Trip</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Travel with Barlow · Made with love &amp; a lot of glitter</p>
+    <div class="pride-bar"></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
